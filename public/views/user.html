@@ -1,0 +1,30 @@
+            <input type="text" ng-model="name">
+            <label>Age</label>
+            <input type="text" ng-model="age">
+            <label>Score</label>
+            <input type="text" ng-model="score">
+            <button ng-click="add()">Add</button>
+            <h1> Hi
+                {{name}} 
+            </h1>
+            <p>
+                {{message}}
+            </p>
+            <label>Search</label>
+            <input type="text" ng-model="search">
+            <select ng-model="selected_person"
+                    ng-options="person.name for person in people">
+                <option value="">Choose a person:</option>
+            </select>
+            
+            {{selected_person.name}}
+            <ul>
+                <li class="first-{{$first}} middle-{{$middle}} last-{{$last}}" ng-repeat="person in people | filter:search">{{person.name}} : {{person.age}} <button ng-click="remove($index)">X</button>
+                    <a href="#/user/{{person._id}}">View</a>
+                <a href="#/user/edit/{{person._id}}">Edit</a> </li>
+            </ul> 
+            
+
+            <input ng-model="selected_person.age">
+
+        

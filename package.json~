@@ -1,0 +1,17 @@
+{
+  "name": "ClassPro",
+  "version": "0.1.0",
+  "description": "my ticket to get one million dollars from investor",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "classpro",
+    "student",
+    "database",
+    "blog"
+  ],
+  "author": "Sobin George Thomas <sobingt@gmail.com>",
+  "license": "ISC"
+}

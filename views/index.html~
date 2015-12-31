@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+ 
+<body>
+	<h1>ClassPro</h1>
+	 
+	<footer>
+		<p>
+			<a href="/">Home</a>
+      <a href="/about">About ClassPro</a>
+      <a href="/login">Login</a>
+      <a href="/signup">Signup</a>
+		</p>
+	</footer>
+	 
+</body>
+</html>

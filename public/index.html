@@ -1,0 +1,31 @@
+
+<html ng-app="GeoApp">
+    <head>
+        <title> App</title>
+        <style>
+            .first-true{
+                color: red;
+            }
+            .middle-true{
+                color: blue;
+            }
+            .last-true{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div ng-view></div>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-route.min.js"></script>
+        <script src="js/angular-resource.js"></script>
+        <script src="app.js"></script>
+        <script src="controllers/home.js"></script>
+        <script src="controllers/user.js"></script>
+        <script src="controllers/profile.js"></script>
+        <script src="controllers/editProfile.js"></script>
+        <script src="services/User.js"></script>
+        
+        
+    </body>
+</html>
